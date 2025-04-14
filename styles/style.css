@@ -1,13 +1,22 @@
 .body {
     background-color: rgb(43, 42, 42);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: beige;
+    color: #c5b8a1;
+}
+header {
+    display: flex;
+    justify-content: space-between;
 }
 .menu {
-     display: flex;
-     align-content: center;
-     justify-content: flex-end;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 .menu > p {
-    padding: 1em 3em;
+    padding: 1em 2em;
+}
+.logo {
+    height: 12vh;
+    padding-left: 1em;
 }
