@@ -1,67 +1,174 @@
 .body {
-    background-color: rgb(43, 42, 42);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #c5b8a1;
+  height: 98vh;
+  width: auto;
+  background-color: rgb(43, 42, 42);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #c5b8a1;
 }
 header {
-    display: flex;
-    justify-content: space-between;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
 }
 .menu {
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10vh;
+  font-size: 1.5em;
 }
 .menu > p {
-    padding: 1em 2em;
+  padding: 1em 2em;
+}
+
+#m1 {
+  padding: 1em 2em;
+  text-decoration: none;
+  color: #c5b8a1;
 }
 .logo {
-    height: 12vh;
-    padding-left: 1em;
-  
-    
+  height: 12vh;
+  padding: 1vh 0 1vh 10vh;
 }
 .main-box {
   background-image: url("/assets/images/vinilo_centro_rosa.png");
   background-repeat: no-repeat;
-  background-position: right 3em center;
-  background-size: 35em;
+  background-position: right 18vh center;
+  background-size: 70vh;
   height: 70vh;
-  
 }
 
 .school-name {
-    font-size: 5em;
-    padding-left: 1em;
+  margin: 0;
+  font-size: 5em;
+  padding: 6vh 0 0 20vh;
 }
 
 .contact {
-    background-color:rgb(202, 146, 62);
-    margin-left: 10em;
-    height: 5vh;
-    width: 25vh;
+  background-color: rgb(202, 146, 62);
+  margin: 5vh 0 0 30vh;
+  font-weight: 500;
+  border-radius: 1vh;
+  font-size: 1.2em;
+  padding: 1em;
+  cursor: pointer;
 }
 .icons {
-    padding: 5em;
+  padding: 7em 3em;
+  margin-left: 10vh;
 }
 .icons > a > img {
-    height: 6vh;
-    background-color: #c5b8a1;
-    padding: 1em;
-    border-radius: 2.1em;
-    border: rgb(0 255 255 / 0%) 1em;
-    margin: 0 1em;
+  height: 6vh;
+  background-color: #c5b8a1;
+  padding: 1em;
+  border-radius: 2.1em;
+  border: rgb(0 255 255 / 0%) 1em;
+  margin: 0 2.7em;
+}
+
+.icons > a {
+  text-decoration: none;
 }
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 footer > a {
-    margin-bottom: em;
-    text-decoration: none;
-    color: #c5b8a1;
+  margin-bottom: em;
+  text-decoration: none;
+  color: #c5b8a1;
+}
+
+/* MARIMBA PAGE */
+
+.intrument-box {
+  height: 70vh;
+}
+
+.instrument-title {
+  margin: 0 0 2em 0;
+  justify-self: center;
+}
+
+#marimbaBox {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 1em;
+  margin: 1em;
+}
+
+#marimbaBox > button {
+  align-self: flex-start;
+  background-color: #bd7833;
+  border: 0.1em solid black;
+  border-radius: 0.4em;
+  font-size: 5em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+#b1 {
+  height: 60vh;
+}
+
+#b2 {
+  height: 58vh;
+}
+
+#b3 {
+  height: 56vh;
+}
+
+#b4 {
+  height: 54vh;
+}
+
+#b5 {
+  height: 52vh;
+}
+
+#b6 {
+  height: 50vh;
+}
+
+#b7 {
+  height: 48vh;
+}
+
+#b8 {
+  height: 46vh;
+}
+
+#b9 {
+  height: 44vh;
+}
+
+#b10 {
+  height: 42vh;
+}
+
+#b11 {
+  height: 40vh;
+}
+
+#b12 {
+  height: 38vh;
+}
+
+#b13 {
+  height: 36vh;
+}
+
+#b14 {
+  height: 34vh;
+}
+
+#b15 {
+  height: 32vh;
 }
