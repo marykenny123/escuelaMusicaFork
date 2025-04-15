@@ -42,4 +42,26 @@ header {
     height: 5vh;
     width: 25vh;
 }
+.icons {
+    padding: 5em;
+}
+.icons > a > img {
+    height: 6vh;
+    background-color: #c5b8a1;
+    padding: 1em;
+    border-radius: 2.1em;
+    border: rgb(0 255 255 / 0%) 1em;
+    margin: 0 1em;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
 
+footer > a {
+    margin-bottom: em;
+    text-decoration: none;
+    color: #c5b8a1;
+}
