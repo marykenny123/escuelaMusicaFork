@@ -1,6 +1,8 @@
+html {
+  height: 100%;
+}
+
 .body {
-  height: 98vh;
-  width: auto;
   background-color: rgb(43, 42, 42);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #c5b8a1;
@@ -16,7 +18,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   margin-right: 10vh;
-  font-size: 1.5em;
+  font-size: 3vh;
 }
 .menu > p {
   padding: 1em 2em;
@@ -32,39 +34,56 @@ header {
   padding: 1vh 0 1vh 10vh;
 }
 .main-box {
-  background-image: url("/assets/images/vinilo_centro_rosa.png");
-  background-repeat: no-repeat;
-  background-position: right 18vh center;
-  background-size: 70vh;
   height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
+#vinilo > img {
+  width: 70vh;
+}
+
+#info {
+  height: 70vh;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .school-name {
   margin: 0;
-  font-size: 5em;
-  padding: 6vh 0 0 20vh;
+  font-size: 10vh;
 }
 
 .contact {
   background-color: rgb(202, 146, 62);
-  margin: 5vh 0 0 30vh;
   font-weight: 500;
   border-radius: 1vh;
-  font-size: 1.2em;
+  font-size: 2vh;
   padding: 1em;
+  margin: 2em;
   cursor: pointer;
 }
 .icons {
-  padding: 7em 3em;
-  margin-left: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
 .icons > a > img {
   height: 6vh;
   background-color: #c5b8a1;
-  padding: 1em;
-  border-radius: 2.1em;
-  border: rgb(0 255 255 / 0%) 1em;
-  margin: 0 2.7em;
+  padding: 1vh;
+  border-radius: 3vh;
+  border: rgb(0 255 255 / 0%) 1vh;
+  /* margin: 0 2.7em; */
 }
 
 .icons > a {
@@ -73,12 +92,15 @@ header {
 footer {
   height: 10vh;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   align-items: flex-end;
+  margin-left: 5em;
+  font-size: 2vh;
 }
 
 footer > a {
-  margin-bottom: em;
   text-decoration: none;
   color: #c5b8a1;
 }
@@ -86,7 +108,7 @@ footer > a {
 /* MARIMBA PAGE */
 
 .intrument-box {
-  height: 70vh;
+  /* cursor: url("../assets/images/pngwing2.png") 10 10, auto; */
 }
 
 .instrument-title {
@@ -171,4 +193,21 @@ footer > a {
 
 #b15 {
   height: 32vh;
+}
+
+/* IN PROGRES PAGE */
+
+#inProgresImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inProgresImg > h2 {
+  margin: 0;
+}
+
+#inProgresImg > img {
+  height: 70vh;
 }
