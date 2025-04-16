@@ -29,6 +29,11 @@ header {
   text-decoration: none;
   color: #c5b8a1;
 }
+
+#m1:hover {
+  background-color: #bd7833;
+  color: black;
+}
 .logo {
   height: 12vh;
   padding: 1vh 0 1vh 10vh;
@@ -42,7 +47,17 @@ header {
 }
 
 #vinilo > img {
-  width: 70vh;
+  width: 68vh;
+  animation: girar 3s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #info {
@@ -57,7 +72,7 @@ header {
 }
 .school-name {
   margin: 0;
-  font-size: 10vh;
+  font-size: 9vh;
 }
 
 .contact {
@@ -66,8 +81,11 @@ header {
   border-radius: 1vh;
   font-size: 2vh;
   padding: 1em;
-  margin: 2em;
   cursor: pointer;
+}
+
+.contact:hover {
+  background-color: #c5b8a1;
 }
 .icons {
   width: 100%;
@@ -76,6 +94,7 @@ header {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+  margin: 1vh;
 }
 .icons > a > img {
   height: 6vh;
@@ -83,7 +102,10 @@ header {
   padding: 1vh;
   border-radius: 3vh;
   border: rgb(0 255 255 / 0%) 1vh;
-  /* margin: 0 2.7em; */
+}
+
+.icons > a > img:hover {
+  background-color: #bd7833;
 }
 
 .icons > a {
