@@ -24,13 +24,15 @@ header {
   padding: 1em 2em;
 }
 
-#m1 {
+#m1,
+#m2 {
   padding: 1em 2em;
   text-decoration: none;
   color: #c5b8a1;
 }
 
-#m1:hover {
+#m1:hover,
+#m2:hover {
   background-color: #bd7833;
   color: black;
 }
@@ -96,7 +98,8 @@ header {
   justify-content: space-between;
   margin: 1vh;
 }
-.icons > a > img {
+.icons > a > img,
+.buttonMarimba > img {
   height: 6vh;
   background-color: #c5b8a1;
   padding: 1vh;
@@ -104,7 +107,8 @@ header {
   border: rgb(0 255 255 / 0%) 1vh;
 }
 
-.icons > a > img:hover {
+.icons > a > img:hover,
+.buttonMarimba > img:hover {
   background-color: #bd7833;
 }
 
@@ -232,4 +236,52 @@ footer > a {
 
 #inProgresImg > img {
   height: 70vh;
+}
+
+/* MARIMBA INFO PAGE */
+
+.marimbaTitle {
+  margin: 0px;
+  color: #bd7833;
+  margin-bottom: 5vh;
+  text-decoration: underline;
+}
+
+.main-box-info {
+  height: 68vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.7vh;
+}
+
+.video {
+  margin: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video > h3 {
+  font-size: 3vh;
+  margin-bottom: 4vh;
+}
+
+.marimbaInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.marimbaInfo > p {
+  margin: 0 5vh;
+  text-align: justify;
+}
+.buttonMarimba {
+  margin-top: 5vh;
+}
+
+.buttonMarimba > img {
+  height: 8vh;
 }
