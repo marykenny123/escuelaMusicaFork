@@ -33,6 +33,10 @@ for (let i = 0; i < buttons.length; i++) {
       volume: 1.0, // Puedes ajustar el volumen (0.0 a 1.0)
     })
     sonidoMarimba.play();
+    buttons[i].classList.add ("activo");
+    setTimeout(() =>{
+    buttons[i].classList.remove ("activo");  
+     },100);
   })
   console.log(buttons[i])
 }
@@ -294,7 +298,12 @@ document.addEventListener("keydown", function (event) {
         volume: 1.0, // Puedes ajustar el volumen (0.0 a 1.0)
       })
     sonidoMarimba.play();
-    break;
+    
+    buttons[j].classList.add ("activo");
+    setTimeout(() =>{
+    buttons[j].classList.remove ("activo");  
+     },100);
+     break; 
     }
   }
 })

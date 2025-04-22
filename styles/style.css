@@ -285,3 +285,9 @@ footer > a {
 .buttonMarimba > img {
   height: 8vh;
 }
+.activo {
+
+  transition : transform 0.1s ease;
+  transform : scale(0.95);
+
+}
