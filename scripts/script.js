@@ -25,13 +25,19 @@ console.log(buttons)
 
 const sounds = ["577693__joesh2__c2.wav", "577690__joesh2__d2.wav", "577694__joesh2__e2.wav", "577698__joesh2__f2.wav", "577702__joesh2__g2.wav", "577689__joesh2__a2.wav", "577687__joesh2__b2.wav", "577692__joesh2__c3.wav", "577695__joesh2__d3.wav", "577699__joesh2__e3.wav", "577700__joesh2__f3.wav", "577701__joesh2__g3.wav", "577688__joesh2__a3.wav", "577686__joesh2__b3.wav", "577691__joesh2__c4.wav"]
 
-for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", () => {
-    sounds[i].play();
+for (let i = 0; i < buttons.length; i++) { 
+
+  buttons[i].addEventListener("click", () => { 
+    const sonidoMarimba = new Howl({
+      src: [`../assets/sounds/${sounds[i]}`], // Ruta del sonido  
+      volume: 1.0, // Puedes ajustar el volumen (0.0 a 1.0)
+    })
+    sonidoMarimba.play();
   })
   console.log(buttons[i])
 }
 
+/*
 const sonidoMarimba1 = new Howl({
   src: ["../assets/sounds/577693__joesh2__c2.wav"], // Ruta del sonido
   volume: 1.0, // Puedes ajustar el volumen (0.0 a 1.0)
@@ -106,6 +112,7 @@ const sonidoMarimba15 = new Howl({
   src: ["../assets/sounds/577691__joesh2__c4.wav"],
   volume: 1.0,
 });
+
 
 button1.addEventListener("click", function () {
   // Aplicamos la transformación y la transición
@@ -274,7 +281,25 @@ button15.addEventListener("click", function () {
 
   sonidoMarimba15.play();
 });
+*/
 
+const keyboard = ['a','s','d','f','g','h','j','k','l','q','w','e','r','t','y'];
+
+document.addEventListener("keydown", function (event) {
+  for (let j=0; j<keyboard.length;j++) {  
+  
+    if (event.key === keyboard[j]) {
+      const sonidoMarimba = new Howl({
+        src: [`../assets/sounds/${sounds[j]}`], // Ruta del sonido  
+        volume: 1.0, // Puedes ajustar el volumen (0.0 a 1.0)
+      })
+    sonidoMarimba.play();
+    break;
+    }
+  }
+})
+
+/*
 document.addEventListener("keydown", function (event) {
   switch (event.key.toLowerCase()) {
     case "a":
@@ -399,3 +424,4 @@ document.addEventListener("keydown", function (event) {
       break;
   }
 });
+*/
