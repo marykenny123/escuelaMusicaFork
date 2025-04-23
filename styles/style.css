@@ -74,7 +74,7 @@ header {
 }
 .school-name {
   margin: 0;
-  font-size: 9vh;
+  font-size: 7.5vh;
 }
 
 .contact {
@@ -96,11 +96,11 @@ header {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  margin: 1vh;
+  margin: 2vh 4vh;
 }
 .icons > a > img,
 .buttonMarimba > img {
-  height: 6vh;
+  height: 10vh;
   background-color: #c5b8a1;
   padding: 1vh;
   border-radius: 3vh;
