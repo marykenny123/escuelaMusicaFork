@@ -3,18 +3,27 @@
 
 ## _Aprendiendo a hacer ruido - Music School_
 =======
-## Tech
+## 🛠 Tech Tools
 
-Dillinger uses a number of open source projects to work properly:
+- **HTML 5** 
+- **CSS 3** 
+- **JavaScript**
+- **Git and GitHub**
+- **Docker**
+- **Figma**
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
->>>>>>> 032b38b6f22605d45a220c6fbb1d1c898db285da
+## 🐳 Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+
+## 👩‍💻 Authors
+
+- [Mary Kenny](https://github.com/marykenny123)
+- [Paula Calvo García](https://github.com/PCalvoGarcia)
+- [Paola](https://github.com/PaolaAPL17)
+- [Lara Pla Moreno](https://github.com/Lizar22)
