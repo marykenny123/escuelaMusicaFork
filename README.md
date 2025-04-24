@@ -18,9 +18,7 @@ Welcome to the new website project for the _Aprendiendo a hacer ruido_ online mu
 ## 📄 Stages and Pages
 
 - Main Page  
-<br>
 ![screenshot of main page](/assets/images/1.MAIN.png)
-<br>
 - Go to these pages from here: 
 
 
