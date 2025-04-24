@@ -1,36 +1,40 @@
 #  🎹 Toquen el DOM 🎶
 
 
-## _Aprendiendo a hacer ruido_ 📀 Music School
-
+### _Aprendiendo a hacer ruido_ 📀 Music School
+<br>
 
 ## 📋 Description
 
 Welcome to the new website project for the _Aprendiendo a hacer ruido_ online music school where technology teams up with your musical creativity. This web has a feature that allows users to learn and practise playing some instruments online. By clicking or pressing keys users can enjoy playing music to their heart's content, and in a real way because the online instruments reproduce the real sounds of the instruments.    
+<br>
 
 
 ## 🔁 Flowchart
  ![Flowchart](/assets/images/Diagrama%20de%20flujo.PNG)
 
-
+<br>
 
 ## 📄 Stages and Pages
 
 - Main Page  
+<br>
 ![screenshot of main page](/assets/images/1.MAIN.png)
-
+<br>
 - Go to these pages from here: 
 
 
 - MARIMBA icon →  Play the  MARIMBA online 
 ![screenshot of main page](/assets/images/2.PLAY_MARIMBA.png)
 
+
 - PIANO (or DRUMS) icon →  Play the PIANO (and the DRUMS) --UNDER CONSTRUCTION 🏗️ 🏗
 ![screenshot pages in process](/assets/images/3.PIANO(DRUMS)_IN-PROGRESS.png)
 
+
 - MARIMBA button →  Some background info and a tutorial to learn to play the MARIMBA  ![screenshot pages in process](/assets/images/4.MARIMBA_INFO.png)  
+<br>
  
-  
 
 ## 🛠 Tech Tools
 
@@ -40,7 +44,8 @@ Welcome to the new website project for the _Aprendiendo a hacer ruido_ online mu
 - **Git and GitHub**
 - **Docker**
 - **Figma**
-
+<br>
+<br>
 
 ## 🐳 Installation
 
@@ -65,7 +70,7 @@ docker build -t escuela-musica .
 ```docker
 docker run -d -p 8080:80 escuela-musica
 ```
-
+<br>
 
 ## 👩‍💻 Authors
 
