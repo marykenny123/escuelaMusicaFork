@@ -32,16 +32,32 @@ Welcome to the new website project for the _Aprendiendo a hacer ruido_ online mu
 
 ## 🐳 Installation
 
-Install my-project with npm
+#### _Previous requirements_
 
-```bash
-  npm install my-project
-  cd my-project
+Install [Docker](https://docs.docker.com/desktop/)⤵
+
+
+#### _Execute the project with Docker_
+
+◽ Step 1: Open docker terminal
+```docker
+docker 
 ```
+ 
+◽ Step 2: This command builds a Docker image from the Dockerfile of the project.
+```docker
+docker build -t escuela-musica .
+```
+
+◽ Step 3: This command runs a container from that newly created image.
+```docker
+docker run -d -p 8080:80 escuela-musica
+```
+
 
 ## 👩‍💻 Authors
 
 - [Mary Kenny](https://github.com/marykenny123)
 - [Paula Calvo García](https://github.com/PCalvoGarcia)
-- [Paola](https://github.com/PaolaAPL17)
+- [Paola Andrea Pinilla Landazábal](https://github.com/PaolaAPL17)
 - [Lara Pla Moreno](https://github.com/Lizar22)
