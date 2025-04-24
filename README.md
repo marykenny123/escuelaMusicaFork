@@ -1,7 +1,7 @@
 #  🎹 Toquen el DOM 🎶
 
 
-## 📀 _Aprendiendo a hacer ruido_ 📀   Music School
+## _Aprendiendo a hacer ruido_ 📀 Music School
 
 
 ## 📋 Description
@@ -11,6 +11,7 @@ Welcome to the new website project for the _Aprendiendo a hacer ruido_ online mu
 
 ## 🔁 Flowchart
  ![Flowchart](/assets/images/Diagrama%20de%20flujo.PNG)
+
 
 
 ## 📄 Stages and Pages
@@ -27,12 +28,10 @@ Welcome to the new website project for the _Aprendiendo a hacer ruido_ online mu
 - PIANO (or DRUMS) icon →  Play the PIANO (and the DRUMS) --UNDER CONSTRUCTION 🏗️ 🏗
 ![screenshot pages in process](/assets/images/3.PIANO(DRUMS)_IN-PROGRESS.png)
 
-- MARIMBA button →  Some background info and a tutorial to learn to play the MARIMBA  ![screenshot pages in process](/assets/images/4.MARIMBA_INFO.png)]  
+- MARIMBA button →  Some background info and a tutorial to learn to play the MARIMBA  ![screenshot pages in process](/assets/images/4.MARIMBA_INFO.png)  
  
   
 
-
-=======
 ## 🛠 Tech Tools
 
 - **HTML 5** 
@@ -41,6 +40,7 @@ Welcome to the new website project for the _Aprendiendo a hacer ruido_ online mu
 - **Git and GitHub**
 - **Docker**
 - **Figma**
+
 
 ## 🐳 Installation
 
