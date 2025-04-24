@@ -9,6 +9,10 @@
 Welcome to the new website project for the _Aprendiendo a hacer ruido_ online music school where technology teams up with your musical creativity. This web has a feature that allows users to learn and practise playing some instruments online. By clicking or pressing keys users can enjoy playing music to their heart's content, and in a real way because the online instruments reproduce the real sounds of the instruments.    
 
 
+## 🔁 Flowchart
+ ![Flowchart](/assets/images/Diagrama%20de%20flujo.PNG)
+
+
 ## 📄 Stages and Pages
 
 - Main Page  
