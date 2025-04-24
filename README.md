@@ -6,17 +6,29 @@
 
 ## 📋 Description
 
-Welcome to the new website project for the _Aprendiendo a hacer ruido_ online music school where technology teams up with your musical creativity. This web has a feature that allows users to practise playing some instruments online. By clicking or pressing keys users can enjoy learning and playing music to their hearts content and in a real way because the online instruments reproduce the real sounds of the instruments.   
+Welcome to the new website project for the _Aprendiendo a hacer ruido_ online music school where technology teams up with your musical creativity. This web has a feature that allows users to learn and practise playing some instruments online. By clicking or pressing keys users can enjoy playing music to their heart's content, and in a real way because the online instruments reproduce the real sounds of the instruments.    
+
+
+## 🔁 Flowchart
+ ![Flowchart](/assets/images/Diagrama%20de%20flujo.PNG)
 
 
 ## 📄 Stages and Pages
 
-- Main Page  [http:....html] 
-- Go to these pages from here:
-- MARIMBA icon →  Play the  MARIMBA online
-- PIANO (or DRUMS) icon Play the PIANO (and the DRUMS) --UNDER CONSTRUCTION 🏗️ 🏗️ [http.html] 
-- MARIMBA button →  Some background info and a tutorial to learn to play the MARIMBA  [http.html] 
+- Main Page  
+![screenshot of main page](/assets/images/1.MAIN.png)
 
+- Go to these pages from here: 
+
+
+- MARIMBA icon →  Play the  MARIMBA online 
+![screenshot of main page](/assets/images/2.PLAY_MARIMBA.png)
+
+- PIANO (or DRUMS) icon →  Play the PIANO (and the DRUMS) --UNDER CONSTRUCTION 🏗️ 🏗
+![screenshot pages in process](/assets/images/3.PIANO(DRUMS)_IN-PROGRESS.png)
+
+- MARIMBA button →  Some background info and a tutorial to learn to play the MARIMBA  ![screenshot pages in process](/assets/images/4.MARIMBA_INFO.png)]  
+ 
   
 
 
